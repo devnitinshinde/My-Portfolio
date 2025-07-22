@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nitin Shinde | Android Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <div class="logo">Nitin Shinde</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Hello<span class="dot">.</span> I’m <span class="highlight">Nitin</span></h1>
+        <h3><span id="typing-subtitle"></span><span class="cursor"></span></h3>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn btn-primary">Got a project?</a>
+          <a href="https://amber-quintina-89.tiiny.site" class="btn btn-outline" target="_blank" >My Resume</a>
+        </div>
+        <div class="tech-stack">
+          <img src="assets/kotlinimg.png" alt="Kotlin" title="Kotlin">
+          <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" alt="Java" title="Java">
+          <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" alt="Firebase" title="Firebase">
+          <img src="assets/jetpackimg2.png" alt="Jetpack Compose" title="Jetpack Compose">
+          <img src="assets/figmaimg.png" alt="Figma" title="Figma">
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="circle-bg">
+          <img src="assets/photo cropped.jpg" alt="Nitin Shinde" class="profile-pic">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About me</h2>
+      <p>
+        I am an Android developer with a strong interest in solving real-world problems using mobile apps. I'm passionate about creating high-impact applications, currently working on a real-time campus management project — <b>CampusPro+</b>.
+      </p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h4>Schooling</h4>
+            <p>Chhatrapati Shivaji High School, Ankushnagar, Jalna</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h4>Diploma in IT</h4>
+            <p>Govt Polytechnic, Ambad – First Class Distinction</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h4>Pursuing B.Tech</h4>
+            <p>2025–present</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h4>Internship</h4>
+            <p>Mountreach Solutions Pvt. Ltd. (June–Nov 2024)<br>
+            <i>Android + Full Stack Android Intern</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><img src="assets/androidimg.png" alt="Android"><span>Android Development</span></div>
+        <div class="skill-card"><img src="assets/kotlinimg.png" alt="Kotlin"><span>Kotlin</span></div>
+        <div class="skill-card"><img src="assets/javaimg.png" alt="Java"><span>Java</span></div>
+        <div class="skill-card"><img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" alt="Firebase"><span>Firebase</span></div>
+        <div class="skill-card"><img src="assets/jetpackimg2.png" alt="Jetpack Compose"><span>Jetpack Compose</span></div>
+        <div class="skill-card"><img src="assets/responsiveimg.png" alt="UI/UX"><span>UI/UX Design</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>My Creations</h2>
+      <div class="project">
+        <div class="project-image">
+          <a href="#" target="_blank">
+            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Grocery Shop App Screenshot">
+          </a>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Grocery Shop App</h3>
+          <p class="project-description">A feature-rich, Blinkit-style Android application built with a modern UI. Includes seamless payment gateway integration and a robust Firebase backend for real-time data handling.</p>
+          <ul class="project-tech-stack">
+            <li>Kotlin</li>
+            <li>Jetpack Compose</li>
+            <li>Firebase</li>
+            <li>MVVM</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="btn btn-outline" >View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <a href="#" target="_blank">
+            <img src="assets/campus.png" alt="CampusPro+ Screenshot">
+          </a>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">CampusPro+</h3>
+          <p class="project-description">A real-time, all-in-one campus management system designed to solve common university challenges. Features include attendance tracking, hostel management, and a repository for study materials.</p>
+          <ul class="project-tech-stack">
+            <li>Kotlin</li>
+            <li>XML</li>
+            <li>Firebase</li>
+            <li>REST API</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="btn btn-outline">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>My Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class='bx bxl-android'></i>
+          <h4>Custom App Development</h4>
+          <p>Building tailored Android apps from scratch to meet your specific business needs and goals.</p>
+        </div>
+        <div class="service-card">
+          <i class='bx bxs-data'></i>
+          <h4>Firebase Integration</h4>
+          <p>Implementing real-time databases, authentication, and cloud storage for dynamic applications.</p>
+        </div>
+        <div class="service-card">
+          <i class='bx bxs-paint'></i>
+          <h4>UI/UX Design</h4>
+          <p>Crafting beautiful, intuitive, and modern user interfaces with Jetpack Compose and Figma.</p>
+        </div>
+        <div class="service-card">
+          <i class='bx bxs-bulb'></i>
+          <h4>Problem Solving</h4>
+          <p>Architecting robust mobile solutions that effectively solve real-world problems and add value.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p id="contact-text">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out to me.</p>
+      <div class="contact-grid">
+        <a href="mailto:devnitinshinde@gmail.com" class="contact-card">
+          <i class='bx bxs-envelope'></i>
+          <div class="contact-info">
+            <h4>Email</h4>
+            <span>devnitinshinde@gmail.com</span>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/devnitinshinde" target="_blank" class="contact-card">
+          <i class='bx bxl-linkedin-square'></i>
+          <div class="contact-info">
+            <h4>LinkedIn</h4>
+            <span>@devnitinshinde</span>
+          </div>
+        </a>
+        <a href="https://github.com/devnitinshinde" target="_blank" class="contact-card">
+          <i class='bx bxl-github'></i>
+          <div class="contact-info">
+            <h4>GitHub</h4>
+            <span>@devnitinshinde</span>
+          </div>
+        </a>
+        <a href="https://instagram.com/devnitinshinde" target="_blank" class="contact-card">
+          <i class='bx bxl-instagram'></i>
+          <div class="contact-info">
+            <h4>Instagram</h4>
+            <span>@devnitinshinde</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      &copy; 2024 Nitin Shinde. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
